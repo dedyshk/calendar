@@ -14,7 +14,8 @@ import { MomentPipe } from './shared/moment.pipe';
     CalendarComponent,
     SelectorComponent,
     OrganizerComponent,
-    MomentPipe
+    MomentPipe,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
