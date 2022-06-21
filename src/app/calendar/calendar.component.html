@@ -14,9 +14,7 @@
     <tr *ngFor="let week of calendar">
       <td
         *ngFor="let day of week.days"
-        
-         
-        
+        (click)="select(day.value)"
       >
         <span
           [class.selected]="day.selected"
